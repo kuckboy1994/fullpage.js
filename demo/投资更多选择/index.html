@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>让投资更多选择</title>
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+		.tableCell {vertical-align: baseline;}
+	</style>
+	<script src="http://s.thsi.cn/js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="http://s.thsi.cn/js/ta.min.20120801.js"></script>
+	<script src="js/jquery-ui-1.10.3.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$.fn.fullpage({
+				slidesColor: ['#fff', '#fff'],
+				anchors: ['page1', 'page2']
+			});
+		});
+	</script>
+</head>
+
+<body>
+	
+	<div class="section">
+		<img src="http://i.thsi.cn/images/activity/html/free/161021/img00.jpg" class="img0"/>
+		<a href="###" class="type11"></a>
+		<a href="###" class="type12"></a>
+		<a href="###" class="type13"></a>
+		<a href="###" class="type14"></a>
+		<img src="http://i.thsi.cn/images/activity/html/free/161021/img01.jpg" class="img1" />
+		<img src="http://i.thsi.cn/images/activity/html/free/161021/img02.jpg" class="img2" />
+	</div>
+	<div class="section">
+	<img src="http://i.thsi.cn/images/activity/html/free/161021/img00.jpg" class="img0"/>
+		<a href="###" class="type21"></a>
+		<a href="###" class="type22"></a>
+		<a href="###" class="type23"></a>
+		<a href="###" class="type24"></a>
+		<img src="http://i.thsi.cn/images/activity/html/free/161021/img03.jpg" class="img3" />
+		<img src="http://i.thsi.cn/images/activity/html/free/161021/img04.jpg" class="img4" />
+		<img src="http://i.thsi.cn/images/activity/html/free/161021/img05.jpg" class="img5"/>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.type11').click(function(){
+				window.open('http://t.10jqka.com.cn/pid_73121694.shtml');
+				TA.log({id :'coa_57c6925b_17'});
+			});
+			$('.type12').click(function(){
+				window.open('http://t.10jqka.com.cn/pid_73121299.shtml');
+				TA.log({id :'coa_57c69279_614'});
+			});
+			$('.type13').click(function(){
+				window.open('http://t.10jqka.com.cn/pid_73123833.shtml');
+				TA.log({id :'coa_57c692b2_439'});
+			});
+			$('.type14').click(function(){
+				window.open('http://t.10jqka.com.cn/pid_72962522.shtml');
+				TA.log({id :'coa_57c692b2_439'});
+			});
+
+			$('.type21').click(function(){
+				window.open('http://t.10jqka.com.cn/pid_64656889.shtml');
+				TA.log({id :'coa_57c6925b_17'});
+			});
+			$('.type22').click(function(){
+				window.open('http://fund.10jqka.com.cn/public/1015_nzdm/');
+				TA.log({id :'coa_57c69279_614'});
+			});
+			$('.type23').click(function(){
+				window.open('http://t.10jqka.com.cn/pid_73566171.shtml');
+				TA.log({id :'coa_57c692b2_439'});
+			});
+			
+			$('.type24').click(function(){
+				window.open('http://activity.ths123.com/html/free/150323');
+				TA.log({id :'coa_58006583_864'});
+			});
+		});
+
+		var setinteractive = function () {
+			var nowheight = $(window).height();
+			var nowwidth = $(window).width();
+			var nowheight = $(window).height();
+			$('.type11, .type12, .type13, .type14')
+			.css('height', nowwidth * 0.135)
+			.css('top', 60 + nowwidth * 0.12);
+			$('.type21, .type22, .type23')
+			.css('height', nowwidth * 0.135)
+			.css('top', 60 + nowwidth * 0.123);
+			$('.type24')
+			.css('height', nowwidth * 0.03)
+			.css('top', 60 + nowwidth * 0.397);
+		};
+
+		setinteractive();
+		$(window).on('resize', function() {
+			setinteractive();
+		});
+	</script>
+</body>
+</html>
